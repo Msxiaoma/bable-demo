@@ -1,0 +1,19 @@
+{
+  "name": "bable-demo",
+  "version": "1.0.0",
+  "description": "理解bable以及插件的简单demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "export NODE_ENV=development && node index.js",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "bable"
+  ],
+  "author": "maai",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
